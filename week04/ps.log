@@ -1,0 +1,48 @@
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 10:48 ?        00:00:07 /sbin/init
+root           2       1  0 10:48 ?        00:00:00 /init
+root           7       2  0 10:48 ?        00:00:00 plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
+root          43       1  0 10:48 ?        00:00:06 /usr/lib/systemd/systemd-journald
+root          92       1  0 10:48 ?        00:00:06 /usr/lib/systemd/systemd-udevd
+root         101       1  0 10:48 ?        00:00:07 snapfuse /var/lib/snapd/snaps/snapd_25202.snap /snap/snapd/25202 -o ro,nodev,allow_other,suid
+root         102       1  0 10:48 ?        00:00:00 snapfuse /var/lib/snapd/snaps/core22_2111.snap /snap/core22/2111 -o ro,nodev,allow_other,suid
+root         108       1  0 10:48 ?        00:00:00 snapfuse /var/lib/snapd/snaps/tree_54.snap /snap/tree/54 -o ro,nodev,allow_other,suid
+systemd+     196       1  0 10:48 ?        00:00:00 /usr/lib/systemd/systemd-resolved
+systemd+     197       1  0 10:48 ?        00:00:01 /usr/lib/systemd/systemd-timesyncd
+root         206       1  0 10:48 ?        00:00:00 /usr/sbin/cron -f -P
+message+     207       1  0 10:48 ?        00:00:01 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         217       1  0 10:48 ?        00:00:14 /usr/lib/snapd/snapd
+root         222       1  0 10:48 ?        00:00:00 /usr/lib/systemd/systemd-logind
+root         228       1  0 10:48 ?        00:00:02 /usr/libexec/wsl-pro-service -vv
+syslog       252       1  0 10:48 ?        00:00:02 /usr/sbin/rsyslogd -n -iNONE
+root         260       1  0 10:48 hvc0     00:00:00 /sbin/agetty -o -p -- \u --noclear --keep-baud - 115200,38400,9600 vt220
+root         273       1  0 10:48 tty1     00:00:00 /sbin/agetty -o -p -- \u --noclear - linux
+root         284       1  0 10:48 ?        00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         455       2  0 10:48 pts/1    00:00:00 /bin/login -f
+root         474       2  0 10:48 ?        00:00:00 /init
+root         475     474  0 10:48 ?        00:00:00 /init
+ssangwon     476     475  0 10:48 pts/0    00:00:00 sh -c "$VSCODE_WSL_EXT_LOCATION/scripts/wslServer.sh" f220831ea2d946c0dcb0f3eaa480eb435a2c1260 stable code-server .vscode-server --host=127.0.0.1 --port=0 --connection-token=3828568286-873879225-3578202670-28830006 --use-host-proxy --without-browser-env-var --disable-websocket-compression --accept-server-license-terms --telemetry-level=all
+ssangwon     477     476  0 10:48 pts/0    00:00:00 sh /mnt/c/Users/won31/.vscode/extensions/ms-vscode-remote.remote-wsl-0.104.2/scripts/wslServer.sh f220831ea2d946c0dcb0f3eaa480eb435a2c1260 stable code-server .vscode-server --host=127.0.0.1 --port=0 --connection-token=3828568286-873879225-3578202670-28830006 --use-host-proxy --without-browser-env-var --disable-websocket-compression --accept-server-license-terms --telemetry-level=all
+ssangwon     483     477  0 10:48 pts/0    00:00:00 sh /home/ssangwon/.vscode-server/bin/f220831ea2d946c0dcb0f3eaa480eb435a2c1260/bin/code-server --host=127.0.0.1 --port=0 --connection-token=3828568286-873879225-3578202670-28830006 --use-host-proxy --without-browser-env-var --disable-websocket-compression --accept-server-license-terms --telemetry-level=all
+ssangwon     487     483  0 10:48 pts/0    00:01:17 /home/ssangwon/.vscode-server/bin/f220831ea2d946c0dcb0f3eaa480eb435a2c1260/node /home/ssangwon/.vscode-server/bin/f220831ea2d946c0dcb0f3eaa480eb435a2c1260/out/server-main.js --host=127.0.0.1 --port=0 --connection-token=3828568286-873879225-3578202670-28830006 --use-host-proxy --without-browser-env-var --disable-websocket-compression --accept-server-license-terms --telemetry-level=all
+ssangwon     515       1  0 10:48 ?        00:00:00 /usr/lib/systemd/systemd --user
+ssangwon     516     515  0 10:48 ?        00:00:00 (sd-pam)
+ssangwon     531     455  0 10:48 pts/1    00:00:00 -bash
+ssangwon     608     487  0 10:48 pts/0    00:00:05 /home/ssangwon/.vscode-server/bin/f220831ea2d946c0dcb0f3eaa480eb435a2c1260/node /home/ssangwon/.vscode-server/bin/f220831ea2d946c0dcb0f3eaa480eb435a2c1260/out/bootstrap-fork --type=fileWatcher
+ssangwon     632     487  3 10:48 pts/0    00:12:41 /home/ssangwon/.vscode-server/bin/f220831ea2d946c0dcb0f3eaa480eb435a2c1260/node --dns-result-order=ipv4first /home/ssangwon/.vscode-server/bin/f220831ea2d946c0dcb0f3eaa480eb435a2c1260/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+ssangwon     765     487  0 10:48 pts/0    00:00:38 /home/ssangwon/.vscode-server/bin/f220831ea2d946c0dcb0f3eaa480eb435a2c1260/node /home/ssangwon/.vscode-server/bin/f220831ea2d946c0dcb0f3eaa480eb435a2c1260/out/bootstrap-fork --type=ptyHost --logsPath /home/ssangwon/.vscode-server/data/logs/20250919T133548
+ssangwon     791     765  0 10:48 pts/9    00:00:00 /bin/bash --init-file /home/ssangwon/.vscode-server/bin/f220831ea2d946c0dcb0f3eaa480eb435a2c1260/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+ssangwon     806     632  0 10:48 pts/0    00:00:10 /home/ssangwon/.vscode-server/extensions/ms-vscode.cpptools-1.26.5-linux-x64/bin/cpptools
+root        1878       1  0 10:53 ?        00:00:00 snapfuse /var/lib/snapd/snaps/core22_2133.snap /snap/core22/2133 -o ro,nodev,allow_other,suid
+root        9969       2  0 11:51 ?        00:00:00 /init
+root        9971    9969  0 11:51 ?        00:00:00 /init
+ssangwon    9974    9971  0 11:51 pts/4    00:00:00 -bash
+ssangwon   12377     515  0 12:07 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+polkitd    32210       1  0 14:10 ?        00:00:00 /usr/lib/polkit-1/polkitd --no-debug
+root       60440       2  0 17:02 ?        00:00:00 /init
+root       60441   60440  0 17:02 ?        00:00:00 /init
+ssangwon   60447   60441  0 17:02 pts/2    00:00:00 /home/ssangwon/.vscode-server/bin/f220831ea2d946c0dcb0f3eaa480eb435a2c1260/node -e const net = require('net'); process.stdin.pause(); const client = net.createConnection({ host: '127.0.0.1', port: 40867 }, () => { client.pipe(process.stdout); process.stdin.pipe(client); }); client.on('close', function (hadError) { console.error(hadError ? 'Remote close with error' : 'Remote close'); process.exit(hadError ? 1 : 0); }); client.on('error', function (err) { process.stderr.write(err && (err.stack || err.message) || String(err)); });
+root       60454       2  0 17:02 ?        00:00:00 /init
+root       60455   60454  0 17:02 ?        00:00:00 /init
+ssangwon   60456   60455  0 17:02 pts/3    00:00:00 /home/ssangwon/.vscode-server/bin/f220831ea2d946c0dcb0f3eaa480eb435a2c1260/node -e const net = require('net'); process.stdin.pause(); const client = net.createConnection({ host: '127.0.0.1', port: 40867 }, () => { client.pipe(process.stdout); process.stdin.pipe(client); }); client.on('close', function (hadError) { console.error(hadError ? 'Remote close with error' : 'Remote close'); process.exit(hadError ? 1 : 0); }); client.on('error', function (err) { process.stderr.write(err && (err.stack || err.message) || String(err)); });
+ssangwon   65420    9974 99 17:28 pts/4    00:00:00 ps -ef
