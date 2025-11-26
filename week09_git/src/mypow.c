@@ -2,5 +2,13 @@
 #include <math.h>
 
 double mypow(int a, int b){
-    return pow(a, b);
+    
+    int result = 1;
+
+    for (int i = 0; i < b; i++)
+    {
+        result *= a;
+    }
+    
+    return (result);
 }
